@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Игровая комнат@</title>
+	<link rel="stylesheet" href="style.css"> 
+	<script type="text/javascript">
+		
+		function answer(profession)
+		{
+			alert("Правильно, это "+ profession+". Молодец, так держать.")
+		}	
+		
+
+	</script>
+</head>
+<body>
+
+<div class="content">
+	<div class="header">
+		<a href="index.html">Главная</a>		
+	</div>
+
+<div class="contentWrap">
+    <div class="content">
+        <div class="center">
+
+			<h1>Игра в загадки</h1>
+
+			<div class="box">
+
+				<p>Кирпичи кладет он в ряд, Строит садик для ребят Не шахтер и не водитель, Дом нам выстроит…</p>
+				
+				<img src="img/Pilot.jpg" onClick='alert("Извини, попробуй еще раз.")'>				
+				<img src="img/soldier.jpg" onClick='alert("Извини, попробуй еще раз.")'>
+				<img src="img/builder.jpg" onClick='answer("Строитель");'>								
+				<img src="img/driver.jpg" onClick='alert("Извини, попробуй еще раз.")'>
+
+				<br>	
+
+				<a href="Driver.html" onClick=>Предыдущая Загадка</a>			
+				<a href="game.html" onClick=>Вернутся в игровую комнату</a>
+				
+			</div>
+
+        </div>
+    </div>
+</div>
+
+	
+
+</div>
+<div class="footer">
+	Copyright &copy; Boris and Marina
+<div>
+
+
+</body>
+</html>
